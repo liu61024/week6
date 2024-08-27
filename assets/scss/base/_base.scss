@@ -1,0 +1,28 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+//如果沒有滿版，可去改class的width
+  
+a {
+    color: inherit;
+    display: inline-block;
+}
+//標籤文字下方線條改為none
+
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0.1em;
+}
+  
+p {
+    letter-spacing: 0.05em;
+}
+//清除文字標籤下方空間可至_variables.scss修改
+//bootstrap沒有字距的設定
+//em單位是以字體字身大小乘以數值做計算

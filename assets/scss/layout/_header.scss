@@ -1,0 +1,17 @@
+.search-bar{
+    position: relative;
+    height: 48px;  
+}
+
+.bi-search{
+    position: absolute; 
+    top: 12px; 
+    right: 12px;
+    width: 24px;
+    height: 24px;
+    &:hover{
+        color: #406C55;
+    }
+}
+
+
